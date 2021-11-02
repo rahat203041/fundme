@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="myscripts.js">
+        $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+    });
+    </script>
+
+    
+    <!-- CSS only -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/android-chrome-192x192.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    <title>Fundme (Beta)</title>
+</head>
+
+<body>
+    <!--main container start-->
+    <div class="container">
+        <div class="fixed-layer">
+
+
+        </div>
+        
+        <!--Full Head Coverage Here-->
+        <div class="head-content">
+            <div class="nav-bar">
+
+                <div class="menu">
+                    <img src="photos/logo.png" alt="logo-img">
+                    <ul>
+                        <li> <a href="#">HOW IT WORKS</a> </li>
+                        <li> <a href="#">EXPLORE ⦊</a> </li>
+                        <li> <a href="#">CATAGORIES ⦊</a> </li>
+                        <li> &#128270; </li>
+                    </ul>
+                </div>
+
+                <div class="login-bar">
+                    <ul>
+                        <li class="login"><a href="#">login</a></li>
+                        <button>
+                            <li class="sign-up">
+                                <a href="#">create campaign</a>
+                            </li>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="head-middle">
+                <h1>Help people near your</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id.
+                </p>
+                <button>
+                    <li class="sign-up">
+                        <a href="#">Explore Campaign</a>
+                    </li>
+                </button>
+            </div>
+        </div>
+
+
+
+
+        <div class="body-content">
+            <div class="category">
+                <div class="row-one">
+                    <h1>
+                        Browse by category
+                    </h1>
+                    <p>Find the cause you are looking for by category
+                    </p>
+                </div>
+
+                <div class="row-two" id="category-photos">
+                    <div class="category-img"><a href="#"> <img src="photos/pic-1.jpg" alt="gategorie-wise-images"> <h5 >Animals (68)</h5> </a></div>
+                    <div class="category-img"><a href="#"> <img src="photos/pic-2.jpg" alt="gategorie-wise-images"> <h5 >Business (86)</h5> </a></div>
+                    <div class="category-img"><a href="#"> <img src="photos/pic-3.jpg" alt="gategorie-wise-images"> <h5 >Charity (48)</h5> </a></div>
+                    <div class="category-img"><a href="#"> <img src="photos/pic-4.jpg" alt="gategorie-wise-images"> <h5 >Community (37)</h5> </a></div>  
+                </div>
+
+                <div class="row-three" id="category-photos">
+                    <div class="category-img"><a href="#"> <img src="photos/pic-5.jpg" alt="gategorie-wise-images"> <h5 >Competitions (9)</h5> </a></div>
+                    <div class="category-img"><a href="#"> <img src="photos/pic-6.jpg" alt="gategorie-wise-images"> <h5 >COVID-19 (3)</h5> </a></div>
+                    <div class="category-img"><a href="#"> <img src="photos/pic-7.jpg" alt="gategorie-wise-images"> <h5 >Creative (16)</h5> </a></div>
+                    <div class="category-img"><a href="#"> <img src="photos/pic-8.jpg" alt="gategorie-wise-images"> <h5 >Education (22)</h5> </a></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="footer-content">
+
+
+        </div>
+    </div>
+    <!--End main container-->
+</body>
+</html>
